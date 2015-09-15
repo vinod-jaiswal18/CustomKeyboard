@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <!-- unstable code the application-->
+
+
+    <item android:state_pressed="true">
+        <layer-list>
+
+            <item>
+                <shape>
+
+                    <gradient
+                        android:startColor="#80999999"
+                        android:endColor="#80999999"
+                        android:type="linear" />
+
+                </shape>
+            </item>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/ic_send_black_24dp" />
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_enabled="true">
+        <layer-list>
+
+            <item>
+                <shape>
+                    <gradient
+                        android:startColor="#FFFFFF"
+                        android:endColor="#FFFFFF"
+                        android:type="linear" />
+
+                </shape>
+            </item>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/ic_send_black_24dp" />
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_enabled="false">
+        <layer-list>
+
+            <item>
+                <shape android:shape="rectangle">
+
+                    <gradient
+                        android:startColor="#FFFFFF"
+                        android:endColor="#FFFFFF"
+                        android:type="linear" />
+
+                </shape>
+            </item>
+
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/ic_send_black_disabled_24dp" />
+            </item>
+        </layer-list>
+    </item>
+
+</selector>
