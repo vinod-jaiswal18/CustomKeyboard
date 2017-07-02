@@ -12,3 +12,8 @@ Custom numeric keyboard sample for your application.
 
 **Sample app:
 https://play.google.com/store/apps/details?id=com.devvj.customkeyboard**
+
+
+Its an sample application for showing implementation of custom numeric keyboard in your application.
+You can contact me via email(vinod.jaiswal18@gmail.com). I will definately help you out.
+-Vinod Jaiswal
